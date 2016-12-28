@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/numGuessEditText"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp" />
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:text="My Guess"
         android:id="@+id/button"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/numGuessEditText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
         android:onClick="btnClicked" />
