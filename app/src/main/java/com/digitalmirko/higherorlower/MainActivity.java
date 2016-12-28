@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void btnClicked(View view) {
 
         // Test to see if Random Number Generator is working
-        Log.i("Random Number", Integer.toString(ranPick));
+        Log.i("Random Number: ", Integer.toString(ranPick));
 
         EditText numGuessEditText = (EditText) findViewById(R.id.numGuessEditText);
 
